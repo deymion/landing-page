@@ -28,6 +28,12 @@ h6 {
     margin: 0;
 }
 
+img {
+    max-width: 100%; /* Make sure the image takes up 100% of the container */
+    height: auto;
+    /* object-fit: cover; Maintain aspect ratio and cover the container */
+}
+
 header,
 footer,
 nav a {
@@ -51,7 +57,6 @@ nav {
     align-items: center;
     margin-bottom: 50px;
     justify-content: space-between;
-    border: red solid 1px;
 }
 
 .logo {
@@ -76,20 +81,20 @@ nav {
     font-size: 18px;
 }
 
-.hero-banner {
+.hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0;
     margin-bottom: 50px;
+    gap: 25px;
 }
 
-.hero-banner .container {
-    flex: 1 1 auto;
+.hero .container {
+    flex: 2 1 none;
 }
 
-.hero-banner img {
-    width: 450px;
-    height: auto;
-    flex: 0 2 none;
+.hero .hero-img {
+    flex: 1 1 none;
+    min-width: 250px;
 }
