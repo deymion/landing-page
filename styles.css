@@ -81,7 +81,7 @@ nav {
 
 .hero-secondary,
 .header-links {
-    color: #f9faf8;
+    color: #e5e7eb;
     font-size: 18px;
 }
 
@@ -124,4 +124,27 @@ nav {
     display: block;
     border: #3882f6 3px solid;
     border-radius: 10px;
+}
+
+/* Quote styles */
+.quote {
+    background-color: #e5e7eb;
+    padding-top: 75px;
+    padding-bottom: 60px;
+}
+
+.quote blockquote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote blockquote p {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote blockquote footer {
+    padding: 10px 20px;
+    align-self: flex-end;
 }
