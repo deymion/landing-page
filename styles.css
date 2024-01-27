@@ -28,10 +28,14 @@ h6 {
     margin: 0;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
 img {
-    max-width: 100%; /* Make sure the image takes up 100% of the container */
+    max-width: 100%;
     height: auto;
-    /* object-fit: cover; Maintain aspect ratio and cover the container */
 }
 
 header,
@@ -97,4 +101,27 @@ nav {
 .hero .hero-img {
     flex: 1 1 none;
     min-width: 250px;
+}
+
+/* Information styles */
+.info {
+    padding-top: 25px;
+    padding-bottom: 70px;
+}
+
+.info h2 {
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.info-card {
+    display: flex;
+    gap: 35px;
+    text-align: center;
+}
+
+.info-card img {
+    display: block;
+    border: #3882f6 3px solid;
+    border-radius: 10px;
 }
