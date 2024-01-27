@@ -40,7 +40,7 @@ img {
 
 header,
 footer,
-nav a {
+nav a{
     background-color: #1f2937;
     color: #e5e7eb;
 }
@@ -49,6 +49,20 @@ header,
 footer,
 section {
     padding: 10px 15vw;
+}
+
+.blue-bg {
+    background-color: #3882f6;
+    color: #fff;
+    cursor: pointer;
+}
+
+button {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px  32px 5px 32px;
+    border-radius: 8px;
+    border-style: none;
 }
 
 /* header styles */
@@ -101,6 +115,10 @@ nav {
 .hero .hero-img {
     flex: 1 1 none;
     min-width: 250px;
+}
+
+.hero-secondary {
+    margin-bottom: 12px;
 }
 
 /* Information styles */
