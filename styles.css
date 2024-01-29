@@ -168,11 +168,27 @@ nav {
 }
 
 /* call-to-action styles */
+.call-action {
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
 .call-action > .blue-bg {
     display: flex;
-    padding: 25px 72px;
+    padding: 45px 72px;
+    border-radius: 8px;
+    align-items: center;
 }
 
 .blue-bg.bordered {
     border: #fff 3px solid;
 }
+
+.call-action-text {
+    flex: 1;
+}
+
+.call-action-text p{
+    margin: 0;
+}
+
