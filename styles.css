@@ -149,6 +149,18 @@ footer p {
     border-radius: 10px;
 }
 
+.attribution {
+    position: relative;
+    text-align: right;
+    top: 70px; 
+    left: 14vw;
+}
+
+.attribution a,
+.attribution{
+    font-size: small;
+}
+
 /* Quote styles */
 .quote {
     background-color: #e5e7eb;
