@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap');
 
+*, :after, :before {
+    box-sizing: border-box;
+    border: 0 solid;
+}
+
 body {
     font-family: 'Noto Sans', sans-serif;
     color: #1f2937;
@@ -54,10 +59,10 @@ section {
 .blue-bg {
     background-color: #3882f6;
     color: #fff;
-    cursor: pointer;
 }
 
 button {
+    cursor: pointer;
     font-size: 18px;
     font-weight: 600;
     padding: 5px  28px 3px 28px;
@@ -182,9 +187,10 @@ footer p {
     font-size: 36px;
 }
 
-.quote blockquote footer {
+blockquote .quote-by {
     padding: 10px 20px;
     align-self: flex-end;
+    background-color: #e5e7eb;
 }
 
 /* Call to action styles */
