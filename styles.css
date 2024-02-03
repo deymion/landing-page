@@ -150,15 +150,18 @@ footer p {
 }
 
 .attribution {
+    display: inline-block;
     position: relative;
     text-align: right;
     top: 70px; 
-    left: 14vw;
+    right: 14vw;
 }
 
 .attribution a,
-.attribution{
-    font-size: small;
+.attribution span{
+    font-size: 12px;
+    color: #1f2937;
+    opacity: .8;
 }
 
 /* Quote styles */
