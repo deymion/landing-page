@@ -8,7 +8,7 @@ Spacer's Log is a simple personal website project designed to tell the story of 
 
 ## Usage
 
-This project is deployed using GitHub Pages. You can access it by clicking [here](https://deymion.github.io/landing-page/).
+This project is deployed using GitHub Pages. You can access it by clicking [here](https://deymion.github.io/spacers-log/).
 
 ## Credits
 
